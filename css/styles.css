@@ -1,0 +1,155 @@
+/* The CSS code for the website. */
+body{
+    font-family: "Montserrat-regular";
+   
+}
+#title{
+    background-color: #A460ED;
+    color:white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+
+.big-heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+h2{
+    color:#B270A2;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    color:#607EAA;
+    font-weight: large;
+    font-size: 1.5rem;
+}
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:Montserrat-light; 
+    font-size:1.2rem ;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* button */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.title-img{
+    border: 20px;
+    transform:rotate(25deg);
+    position: absolute;
+    left:55%;
+}
+/* features */
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    
+    padding:4.5%;
+}
+.icon{
+    color:#F07DEA;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #A460ED;
+}
+/* testimonials section */
+#testimonials{
+    
+    text-align: center;
+    background-color: #F07DEA;
+    color: #fff;
+}
+
+.testimonial-img{
+    width: 21%;
+    border-radius: 10%;
+    margin: 20px;
+}
+#press{
+    background-color: #F07DEA;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%; 
+    margin: 20px 20px 50px; 
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* pricing section */
+#pricing{
+    padding: 100px;  
+    text-align: center;  
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.buttoninprice{
+    display: block;
+    width: 100%;
+   
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+        position:static;
+    }
+}
+#cta{
+    
+    background-color: #A460ED;
+    color:white;
+    border:30px; text-align: center;
+}
+
+.bottom-fotter-desc{
+   
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+   
+}
+.calltoaction{
+    padding:7% 15%;
+}
+/* footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icons{
+    margin: 20px 10px;
+}
+.breed-heading{
+    color:#810955   ;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MewCat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!-- Linking the css file to the html file. -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- This is a script that is used to add icons to the website. -->
+    <script src="https://kit.fontawesome.com/863cc2213a.js" crossorigin="anonymous"></script>
+    <!-- Preconnect to the google fonts api. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+   <link rel="icon" href="Images/favicon.ico">
+</head>
+
+<body>
+
+    <section id="title">
+
+        <!-- Nav Bar -->
+        <div class="container-fluid">
+            <!-- This is a navbar. -->
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">MewCat</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+
+            <!-- Title -->
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="big-heading">Meet new and interesting Cats nearby.</h1>
+                    <button type="button" class="btn btn-lg btn-dark download-button"><i class="fa-brands fa-apple"></i>
+                        Download</button>
+                    <button type="button" class="btn btn-lg btn-outline-light download-button"><i
+                            class="fa-brands fa-google-play"></i> Download</button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="title-img " src="Images/cat-tinder.png" alt="cat-tinder-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Features -->
+
+    <section id="features">
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-circle-check fa-4x"></i>
+                <h3>User Friendly.</h3>
+                <p>So easy to use, even your cat could do it.</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-bullseye fa-4x"></i>
+                <h3>Mason Cooley</h3>
+                <p>Cats are inquisitive, but hate to admit it</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-sharp fa-solid fa-heart fa-4x"></i>
+                <h3>Guaranteed to work</h3>
+                <p>Find the love of your cat's life or your money back.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <!-- The below code is creating a carousel of testimonials. -->
+
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>With a name like “Munchkin,” how could these cats not be cute?</h2>
+                    <img class="testimonial-img" src="images/cat-img-munchkin.png" alt="cat-profile">
+                    <em> Rita,Lucknow </em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">My cat used to be so lonely, but with MewCat's help, they've found the
+                        love of their life.</h2>
+                    <img class="testimonial-image" src="Images/men-img.jpg" alt="man-profile">
+                    <em> Roman, Mumbai</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">Did I expect to find the love of my life on online dating? Yes,With
+                        MewCat </h2>
+                    <img class="testimonial-image" src="Images/girl-cat.jpg" alt="girlholdingcat-1-profile">
+                    <em> Pallavi, Surat</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">That was the happy moment Ozzy entered their lives, but Cavin couldn't
+                        help thinking about the kitten left behind.</h2>
+                    <img class="testimonial-image" src="Images/girl-cat2 .jpg" alt="girlholdingcat-2-profile">
+                    <em> Ruchi, Mumbai</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel "
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Press -->
+
+    <section id="press">
+        <img class="press-img" src="Images/ge-img.png" alt="ge-img-logo">
+        <img class="press-img" src="Images/atat.png" alt="atat-logo">
+        <img class="press-img" src="Images/delta.png" alt="delta-logo">
+        <img class="press-img" src="Images/TED.png" alt="ted-logo">
+
+
+
+
+
+
+    </section>
+
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+
+        <h2>A Plan for Every Cat's Needs</h2>
+        <p>Simple and affordable price plans for you and your cat.</p>
+
+
+        <div class="row">
+            
+            <div class="pricing-column col-lg-4 col-md-6">
+                 <div class="card">
+                    <div class="card-header">
+                        <h3  class="breed-heading">Abyssinian Cat</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>Free</h2>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="buttoninprice btn btn-lg btn-block btn-outline-dark"type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-md-6">
+
+                <div class="card">
+                   <div class="card-header">
+                       <h3  class="breed-heading">Birman Cat Breed</h3>
+                   </div>
+                   <div class="card-body">
+                       <h2>2500 / mo</h2>
+                       <p>Unlimited Matches</p>
+                       <p>Unlimited Messages</p>
+                       <p>Unlimited App Usage</p>
+                       <button class="buttoninprice btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                   </div>
+               </div>
+            </div>
+                <div class="pricing-column col-lg-4">
+                <div class="card">
+                       <div class="card-header">
+                           <h3 class="breed-heading">Chartreux Cat Breed</h3>
+                       </div>
+                       <div class="card-body">
+                           <h2>₹5000 / mo</h2>
+                           <p>Priority Listing</p>
+                           <p>Unlimited Matches</p>
+                           <p>Unlimited Messages</p>
+                           <p>Unlimited App Usage</p>
+                           <button class="buttoninprice btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                       </div>
+                   </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- Call to Action -->
+
+    <section id="cta">
+<div class="calltoaction">
+  <h3 class="bottom-fotter-desc">Find the Love of Your Cat's Life Today.</h3>
+      <button type="button" class="download-button-2 btn btn-lg btn-dark download-button"><i class="fa-brands fa-apple"></i>
+        Download</button>
+    <button type="button" class="download-button-2 btn btn-lg btn-outline-light download-button"><i
+            class="fa-brands fa-google-play"></i> Download</button>
+</div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        
+        <a href="https://www.facebook.com/SuryanshUpadyay02i/"><i class="social-icons fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/linneszyx"><i class="social-icons fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/linneszyx/"><i class="social-icons fa-brands fa-instagram"></i></a>
+        <a href="mailto:itssuryanshcooldude346@gmail.com"><i class="social-icons fa-solid fa-envelope"></i></a>
+        <p>© Copyright MewCat 2022</p>
+
+    </footer>
+
+
+</body>
+
+</html>
